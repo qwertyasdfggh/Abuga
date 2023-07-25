@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background: url(pexels-junior-teixeira-2047905.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 60px;
+    position: absolute;
+    border-radius: 90px;
+    top: 4%;
+    left: 10%;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 80px;
+    padding: 30px;
+}
+.banner-text p{
+    font-size: 20px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6 ease;
+    border-radius: 90px;
+    border-color: transparent;
+}
+ul li a:hover{
+    background-color:#ff5733;
+    color: #fff;
+}
+ul li.active a{
+    background-color: #ff5733;
+    color:#fff;  
+}
+.button{
+    float: right;
+    position: absolute;
+    display: inline;
+    list-style-type: none;
+    padding-bottom: 50px;
+    margin: 32%;
+    margin-right: 7%;
+}
+.button a{
+   border: 1px solid #fff;
+   border-radius: 30px;
+   color: #fff; 
+   padding: 5px 20px;
+   display: inline;
+   background:#ff5733;
+   border-color: transparent;
+   transition: 0.5 ease;
+}
+.button a:hover{
+    background-color:#fff;
+    color: #000;
+}
+.container{
+    text-align: center;
+    float: right;
+    position: absolute;
+    margin: 50px;
+    width: 50%;
+    align-items: center;
+
+}
+
+.container input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 30px;
+    border-color: #ff5733;
+    border: 1px solid #ff5733;
+}
+.container input [type='submit']{
+    min-width: 10px;
+    background-color: #ff5733;
+}
